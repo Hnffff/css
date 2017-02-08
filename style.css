@@ -1,0 +1,71 @@
+/*----------------------------- 
+    CUSTOM
+-----------------------------*/
+
+/* [ Base text ] */
+div.text-content,
+div[data-editable="webform"] label, 
+div[data-editable="webform"] input[type="text"], 
+div[data-editable="webform"] textarea, 
+div[data-editable="webform"] select {
+    font-size: 16px;
+    font-family:'Helvetica Neue', Helvetica, sans-serif;
+    color: rgb(222, 224, 223);
+}
+
+/* [ Webform text ] */
+div[data-editable="webform"] .label label {
+    font-weight: 700;
+    line-height: normal;
+}
+
+div[data-editable="webform"] label, 
+div[data-editable="webform"] input[type="text"], 
+div[data-editable="webform"] textarea, 
+div[data-editable="webform"] select {
+    font-size: 18px;
+    color: rgb(59, 59, 59);
+}
+
+/* [ Webform inputs] */
+div[data-editable="webform"] input[type="text"], 
+div[data-editable="webform"] textarea, 
+div[data-editable="webform"] select {
+    background-color: rgb(255, 255, 255); 
+    border: none;
+    font-family: Georgia, serif;
+}
+
+/* [ Button container ] */
+div[data-editable="button"],
+div[data-editable="webinarButton"],
+div[data-editable="webform"] button {
+    background-color: #c31931; 
+    background-image: linear-gradient(to bottom, #d11d39, #ae1525);
+    box-shadow: 0 3px 0 0 #785413;
+}
+
+/* [ Button text ] */
+div[data-editable="button"] button,
+div[data-editable="webinarButton"] button,
+div[data-editable="webform"] button {
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+/* [ Button :hover ] */ 
+div[data-editable="button"].hover,
+div[data-editable="webinarButton"].hover,
+div[data-editable="webform"] div[data-type="submit"].hover button {
+    background-color: #bb0922; 
+    background-image: linear-gradient(to bottom, #ae1525, #950a18);
+    box-shadow: 0 3px 0 0 #785413;
+}
+
+div[data-editable="button"].hover button,
+div[data-editable="webinarButton"].hover button,
+div[data-editable="webform"] div[data-type="submit"].hover button {
+    color: #fff;
+}
